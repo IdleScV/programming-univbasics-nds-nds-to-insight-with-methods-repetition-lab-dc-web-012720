@@ -40,7 +40,10 @@ def total_gross(source)
   # return the total
   sum = 0;
   count = 0;
-  while directors_totals(source)[]
+  while count < list_of_directors(source).length do
+    sum += directors_totals(list_of_directors(source)[count])
+  end
+  return sum
 end
 
 
