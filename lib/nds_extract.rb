@@ -29,6 +29,7 @@ def list_of_directors(source)
   count = 0;
   while source[count] do
     arr.push(source[count][:name])
+    count += 1
   end
   return arr
 end
