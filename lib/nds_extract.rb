@@ -27,8 +27,9 @@ end
 def list_of_directors(source)
   arr = []
   count = 0;
-  while source[]
-  
+  while source[count] do
+    arr.push(source[count][:name])
+  end
   return arr
 end
 
