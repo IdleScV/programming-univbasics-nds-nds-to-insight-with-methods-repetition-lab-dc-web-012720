@@ -47,6 +47,7 @@ def total_gross(source)
   count = 0;
   while count < list_of_directors(source).length do
     sum += directors_totals(list_of_directors(source)[count])
+    count += 1
   end
   return sum
 end
